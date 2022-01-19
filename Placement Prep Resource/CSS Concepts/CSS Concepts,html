@@ -1,0 +1,53 @@
+1. CSS stands for Cascading Style Sheets with an emphasis placed on “Style.” CSS brings style to your web pages by interacting with HTML elements.
+
+2. CSS selectors are used to "find" (or select) the HTML elements you want to style. There are broadly five categories of selectors:
+Simple selectors (select elements based on name, id, class)
+Combinator selectors (select elements based on a specific relationship between them)
+Pseudo-class selectors (select elements based on a certain state)
+Pseudo-elements selectors (select and style a part of an element)
+Attribute selectors (select elements based on an attribute or attribute value)
+
+3. If there are two or more conflicting CSS rules that point to the same element, the browser follows some rules to determine which one is most specific and therefore wins out. Think of specificity as a score/rank that determines which style declarations are ultimately applied to an element. The universal selector (*) has low specificity, while ID selectors are highly specific!
+
+4. the z-index property is used to specify:
+The stack level of the box in the current stacking context
+Whether the box establishes a stacking context
+In CSS/HTML, a stacking context is a 3D conceptualization of an element. This can be a root stacking context, as created by the html element. Or it can be a local stacking context, as created by specific properties and values.
+
+5. A Block Formatting Context(BFC) is part of the visual CSS rendering of a web page in which block boxes are laid out. The positioning scheme to which it belongs is normal flow. Floats, absolutely positioned elements, inline-blocks, table-cells, table-captions, and elements with ‘overflow’ other than ‘visible’ (except when that value has been propagated to the viewport) establish new block formatting contexts.
+
+6. Yes, i have used grid system. I would use a combination of flex and grid.
+
+7. Yes.
+
+8. This part is related to the above about writing efficient CSS. Browsers match selectors from rightmost (key selector) to left. Browsers filter out elements in the DOM according to the key selector and traverse up its parent elements to determine matches. The shorter the length of the selector chain, the faster the browser can determine if that element matches the selector.
+
+9. A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). They can be used for decoration (:first-line, :first-letter) or adding elements to the markup (combined with content: ...) without having to modify the markup (:before, :after).
+:first-line and :first-letter can be used to decorate text.
+Used in the .clearfix hack as shown above to add a zero-space element with clear: both.
+Triangular arrows in tooltips use :before and :after. Encourages separation of concerns because the triangle is considered part of styling and not really the DOM.
+
+10. The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself.
+
+11. By default, elements have box-sizing: content-box applied, and only the content size is being accounted for.
+box-sizing: border-box changes how the width and height of elements are being calculated, border and padding are also being included in the calculation.
+The height of an element is now calculated by the content's height + vertical padding + vertical border width.
+The width of an element is now calculated by the content's width + horizontal padding + horizontal border width.
+Taking into account paddings and borders as part of our box model resonates better with how designers actually imagine content in grids.
+
+12. The display CSS property sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex. Formally, the display property sets an element's inner and outer display types: none, block, inline, inline-block, flex, grid, table, table-row, table-cell, list-item
+
+13. inline-block converts the block element to inline.
+
+14. The nth-child and nth-of-type CSS pseudo-classes are interesting compared to other types of pseudo-classes because they select elements based on their position in the DOM. Whereas some pseudo-classes select a specific state of an element (e.g. the hover, active, target pseudo-classes), nth-child and nth-of-type are more concerned with the structure of your markup.
+
+15. There are several types of positioning: static, relative, absolute, fixed, sticky, initial, and inherit. These types mean.
+Static - this is the default value, all elements are in order as they appear in the document.
+Relative - the element is positioned relative to its normal position.
+Absolute - the element is positioned absolutely to its first positioned parent.
+Fixed - the element is positioned related to the browser window.
+Sticky - the element is positioned based on the user's scroll position.
+
+16. Bootstral is one CSS framework. Ihave personally never used it. To improve/change it, we may override its css values with our own styling
+
+17. Yes.
