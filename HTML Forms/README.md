@@ -19,4 +19,4 @@ Instructions:
 #name, #email, #password, #cars, #age, #dob. For example, The element for selecting car brand should have id #cars
 4. The radio buttons for gender should have name attribute as gender.
 5. All input elements must also have corresponding labels with for attribute set to id's of element they belong.
-For example, the label for input of name will be <label for="name"> Name</label>
+For example, the label for input of name will be ```<label for="name"> Name</label>```
