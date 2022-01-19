@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form id="myForm" method="post">
+            <h1>Car insurance registration form </h1>
+            </br>
+            <label for="name">Name</label></br>
+            <input type="text" id="name" value="amit" name="name" placeholder="your name" required/></br>
+
+            <label for="email">Email</label></br>
+            <input type="email" id="email" value="amit@newtonschool.com" name="email" placeholder="abc@newtonschool.com" required/></br>
+
+            <label for="gender">Gender: </label></br>
+            <input type="radio" id="male" name="gender" required/>
+            <label for="male">Male</label></br>
+            <input type="radio" id="female" name="gender" required/>
+            <label for="female">Female</label></br>
+
+            <label for="cars">Car Brands</label>
+            <select name="carBrands" id="cars" required>
+                <option selected>BMW</option>
+                <option>Audi</option>
+                <option>Mercedez</option>
+            </select></br>
+            <label for="carage">Car Age*</label></br>
+            <input type="number" id="carage" name="carage" value="02" placeholder="02" required/></br>
+
+            <label for="dop">Date of Purchase(dop)*</label></br>
+            <input type="date" id="dop" name="dop" value="07/07/2020" required/></br>
+
+            <label for="password">Password</label></br>
+            <input type="password" id="password" name="pass" placeholder="password" required/></br>
+
+            <button type="submit"> Submit</button>
+        </form>
+    </body>
+</html>
