@@ -1,0 +1,28 @@
+.holder {
+           /* Write code here*/
+           display: grid;
+           grid-template-columns: repeat(2,200px);
+           grid-template-rows: repeat(2,200px);
+        }
+
+        .item {
+            width: 175px;
+            height: 175px;
+            font-size: 3rem;
+        }
+
+        .item-1 {
+            background: red;
+        }
+
+        .item-2 {
+            background: blue;
+        }
+
+        .item-3 {
+            background: green;
+
+        }
+        .item-4{
+            background-color: magenta;
+        }
