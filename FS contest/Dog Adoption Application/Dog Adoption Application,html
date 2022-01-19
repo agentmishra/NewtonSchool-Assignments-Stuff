@@ -1,0 +1,21 @@
+<form method="post">
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Name"><br><br>
+
+    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" placeholder="Phone Number"><br><br>
+
+    <label for="address">Address</label>
+    <input type="text" id="address" placeholder="Address"><br><br>
+
+    <input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
+    <label for="checkbox">Have you ever lived with a Dog before?</label><br><br>
+    
+    <label for="multiSelect">Please Select your preferred breeds</label>
+    <select id="multiSelect">
+        <option value="dog1" selected>Dog type 1</option>
+        <option value="dog2" selected>Dog type 2</option>
+        <option value="dog3" selected>Dog type 3</option>
+    </select><br><br>
+    <input type="submit" id="submit" value="Submit">
+</form>
