@@ -3,17 +3,17 @@ static char grades(int a, int b, int c, int d, int e)
       // Your code here
 	  int avg;
 	  avg = (a+b+c+d+e)/5;
-	  //String grade = "Grade";
+	  
 	  char grade;
 
-		//System.out.print("The student Grade is: ");
+		
 
 			if(avg>=80)
 
 			{
 
 			grade = 'A';
-			//System.out.println (grade);
+			
 			return grade;
 
 			}
@@ -22,8 +22,7 @@ static char grades(int a, int b, int c, int d, int e)
 
 			{
 
-			//grade = grade.concat(" 'B");
-			//System.out.println (grade);
+			
 			grade = 'B';
 			return grade;
 
@@ -33,8 +32,7 @@ static char grades(int a, int b, int c, int d, int e)
 
 			{
 
-			//grade = grade.concat(" 'B");
-			//System.out.println (grade);
+			
 			grade = 'C';
 			return grade;
 
@@ -44,13 +42,12 @@ static char grades(int a, int b, int c, int d, int e)
 
 			{
 
-			//grade = grade.concat(" 'B");
-			//System.out.println (grade);
+			
 			grade = 'D';
 			return grade;
 
 			}
 
-			//return grade;
+			
 
 	}
