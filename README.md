@@ -31,6 +31,8 @@ i will try to be active over the discussion tab, to help all, and will also incl
 
 happy learning all!!
 
+### Stargazers
+
 [![Stargazers repo roster for @agentmishra/NewtonSchool-Assignments-Stuff](https://reporoster.com/stars/agentmishra/NewtonSchool-Assignments-Stuff)](https://github.com/agentmishra/NewtonSchool-Assignments-Stuff/stargazers)
 
 ### Forkers
