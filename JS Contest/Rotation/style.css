@@ -1,0 +1,14 @@
+#box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: transform 2s;
+}
+
+.nor{
+    transform: rotate(180deg);
+}
+.active{
+    transform: rotate(0);
+
+}
