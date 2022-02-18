@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgb(175, 175, 201);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  background-color: yellow;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 700px;
+  max-width: 90%;
+  border: 1px solid black;
+}
+
+.wpm,
+.wpmLabel {
+  color: rgb(175, 78, 88);
+  position: absolute;
+  top: 6rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.timer,
+.timerLabel {
+  position: absolute;
+  top: 2rem;
+  font-size: 3rem;
+  color: yellow;
+  font-weight: bold;
+}
+
+.timerLabel,
+.wpmLabel {
+  left: 50rem;
+}
+
+.quote-display {
+  margin-bottom: 1rem;
+  margin-left: calc(1rem + 2px);
+  margin-left: calc(1rem - 2px);
+}
+
+.container-focus {
+  border: 3px solid black;
+}
+
+.quote-display .correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
