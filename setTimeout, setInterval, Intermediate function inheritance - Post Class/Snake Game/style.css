@@ -1,0 +1,71 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     width: 100vw;
+     height: 100vh;
+     display: grid;
+     place-content: center;
+     background-color: #bbbbbb;
+}
+.container{
+     padding: 8px;
+     border-radius: 5px;
+     box-shadow:
+     inset -7px -7px 10px #eee,
+     inset 7px 7px 10px #444;
+}
+#gameContainer{
+     width: 400px;
+     height: 400px;
+     display: grid;
+     grid-template-columns: repeat(40, 1fr);
+     grid-template-rows: repeat(40, 1fr);
+     border-style: solid;
+     border-width: 1px;
+     border-color: #777 #ddd #ddd #777;
+}
+.scoreBoard{
+     margin-top: 10px;
+     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+     font-size: 1.3rem;
+     font-weight: 700;
+}
+.snakeBodyPixel{
+     background: radial-gradient(#8B9A46, #541212);
+     border-radius: 2px;
+}
+.ltr{
+     border-radius: 0px;
+     border-top-right-radius: 50%;
+     border-bottom-right-radius: 50%;
+}
+.rtl{
+     border-radius: 0px;
+     border-top-left-radius: 50%;
+     border-bottom-left-radius: 50%;
+}
+.btt{
+     border-radius: 0px;
+     border-top-right-radius: 50%;
+     border-top-left-radius: 50%;
+}
+.ttb{
+     border-radius: 0px;
+     border-bottom-right-radius: 50%;
+     border-bottom-left-radius: 50%;
+}
+.food{
+     box-shadow: 1px 1px 2px #DA1212,
+     -1px -1px 2px #DA1212;
+     background-color: #DA1212;
+     border-radius: 30%;
+     animation: enlarge .3s alternate infinite;
+}
+
+@keyframes enlarge {
+     from{transform: scale(0.5);}
+     to{transform: scale(1);}
+}
