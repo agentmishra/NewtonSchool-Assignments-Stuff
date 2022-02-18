@@ -1,0 +1,34 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     height: 100vh;
+     width: 100vw;
+     display: grid;
+     place-content: center;
+}
+.container{
+     width: 70vw;
+     height: 80vh;
+}
+header{
+     width: 100%;
+     height: 40px;
+     background-color: #ddd;
+     padding: 5px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.checkbox-container{
+     display: flex;
+     align-items: center;
+     gap: 5px;
+}
+#textarea{
+     width: 100%;
+     padding: 5px;
+     height: calc(100% - 40px);
+}
