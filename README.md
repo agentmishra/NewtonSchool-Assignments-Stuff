@@ -39,8 +39,8 @@ happy learning all!!
 
 [![Forkers repo roster for @agentmishra/NewtonSchool-Assignments-Stuff](https://reporoster.com/forks/agentmishra/NewtonSchool-Assignments-Stuff)](https://github.com/agentmishra/NewtonSchool-Assignments-Stuff/network/members)
 
-You may join in to the my slack channel for any discussions
+<!--You may join in to the my slack channel for any discussions
 
 https://join.slack.com/t/agentmishra/shared_invite/zt-1mzchnr8x-UJjc93B8KosLxjLJtgwC~g
 
-Kindly note, i may not always be available on slack, will make it possible whenever possible.
+Kindly note, i may not always be available on slack, will make it possible whenever possible.-->
